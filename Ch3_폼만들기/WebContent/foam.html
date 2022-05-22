@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>고양이 사진 투고형식</h2>
+필요한 사항을 기입한 후, 보내기를 눌러주세요
+<br><br>
+<table border="0" bgcolor=" #FFE4E1">
+<tr>
+<th>고양이 이름</th>
+<td><input type="text" size="20"></td>
+</tr>
+<tr>
+<th><b>주소</b></th>
+<td><select name="address" size="1">
+<option value="서울" selected>서울</option>
+<option value="경기">경기</option>
+<option value="강원">강원</option>
+<option value="부산">부산</option>
+<option value="경상">경상</option>
+</select></td>
+</tr>
+<tr>
+<th>성별</th>
+<td><input type="radio" name="gender" value="남">남<input
+type="radio" name="gender" value="여">여</td>
+</tr>
+<tr>
+<th><b>좋아하는 것</b></th>
+<td><input type="checkbox" name="fav" value="고기사료">고기사료<input
+type="checkbox" name="fav" value="야채사료">야채사료 <input
+type="checkbox" name="fav" value="생선사료">생선사료<input
+type="checkbox" name="fav" value="곡류사료">곡류사료 <input
+type="checkbox" name="fav" value="통조림">통조림</td>
+</tr>
+<tr>
+<th>사진</th>
+<td><button type="button">파일 선택</button> <br></td>
+</tr>
+<tr>
+<th>기르는 주인 이름</th>
+<td><input type="text" size="20">
+</td>
+</tr>
+<tr>
+<th>메일주소</th>
+<td><input type="email" size="20" placeholder="info@example.com"></td>
+</tr>
+<tr>
+<th>전화번호</th>
+<td><input type="tel" size="20" placeholder="010-1234-5678"></td>
+</tr>
+<tr>
+<th>코멘트</th>
+<td><textarea name="coment" rows="7" cols="40" wrap="virtual"></textarea></td>
+</tr>
+
+</table>
+<br>
+<input type="reset" value="취소">
+<input type="submit" value="보내기">
+</body>
+</html>
