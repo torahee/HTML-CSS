@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>미디어 쿼리</title>
+<head>
+<style type="text/css">
+
+body {text-align: center;}
+div{
+ margin: 10px;
+ padding: 10px;
+ color: #FA8072;
+ font-family: Impact, sans-serif;
+ font-size: 50vh;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+	body {
+	       background-color: #FAFAD2;
+	       }
+	}
+
+@media not screen and (max-width:600px){
+	body {
+	        background-color: yellow; 
+	        }
+	}
+@media all and (orientation: portrait){
+
+#sample{
+            color: orange;
+            text-shadow: white 20px 10px;
+           }
+
+}
+@media all and (orientation: landscape){
+
+#sample{
+		color: white; 
+		text-shadow: darkgray 10px 10px;
+		}
+}
+
+</style>
+</head>
+<body>
+<div id="sample">WIDTH</div>
+
+
+</body>
+
+</html>

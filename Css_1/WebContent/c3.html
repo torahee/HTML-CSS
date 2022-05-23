@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>선택자 실습 </title>
+<style type="text/css">
+
+	#list {background-color: mistyrose;}
+
+	ul>li+ul>li+ul>li {color:#00008B;} /* 자식>, 인접+ */
+
+	ul p{color:#FF7F50;} /* 자손 */
+	
+	ul+li{color:#008080;}
+
+</style>
+</head>
+
+<body>
+	<ul id="list">
+	<li> HTML</li>
+		<ul>
+		<li>첫번째 리스트 안에 리스트</li>
+			<ul>
+			<li>제일 안쪽 리스트</li>
+			<p>p태그 입니다</p>
+			</ul>
+			
+		<li>두번 리스트안에 리스트</li>
+		<p>두번째p태그 </p>
+		</ul>
+		
+	<li>CSS</li>
+	<li>JAVASCRIPT</li>
+	</ul>
+
+</body>
+</html>

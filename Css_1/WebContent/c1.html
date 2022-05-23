@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>상속</title>
+<style type="text/css">
+
+	div{
+		 display: flex;
+		 justify-content: center;
+		 align-items: center;
+		
+		 width: 800px; height: 300px;
+		
+		 color:	#4682B4;    
+		 font-size: 20px;   
+		 border: 5px dashed #FFC0CB;  
+		}
+
+ #a {color: #4B0082;
+      border: inherit;
+     }
+ #b {color: initial;}
+ #b {color: unset;}
+ #c {color : unset;
+      border: inherit;
+      border: unset;
+     }
+
+</style>
+</head>
+<body>
+
+<div>
+ <p id="a">CSS에 오신 것을 환영합니다.</p>
+ <p id="b">CSS에 오신 것을 환영합니다.</p>
+ <p id="c">CSS에 오신 것을 환영합니다.</p>
+</div>
+
+
+</body>
+</html>
